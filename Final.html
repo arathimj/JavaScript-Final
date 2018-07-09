@@ -1,0 +1,107 @@
+<html>
+	<head><center><br><link rel="stylesheet" href="Final.css"></center></head>
+	<body>
+	<script type="text/javascript" src="Final.js"></script>
+	<center>
+	<div id="Login">
+	<form name="form1" id="form_id1" method="POST"><br>
+	<table>
+	<tr>
+		<td><label for="user">User Name</label></td>
+		<td><input type="text" placeholder="User Name" name="users1" id="users1" onclick="seeuser1()"></td>
+	</tr>
+	<tr align="center">
+		<td></td>
+		<td id="useralert1"></td>
+	</tr>
+	<tr>
+		<td><label for="password">Password</label></td>
+		<td><input type="password" placeholder="Password" name="passwords1" id="passwords1" onclick="seepass1()"></td>
+		</tr>
+	<tr align="center">
+		<td></td>
+		<td id="passwordalert1"></td>
+	</tr>
+	</table><br><br><br>
+	<input type="button" name="submit" value="Login" onclick="submitform1()"><br><br><br>
+	<a  onclick="toggleVisibility('SignUp');">Sign Up</a><br><br><br>
+	<a  onclick="toggleVisibility('ContactUs');">Contact Us</a>
+	</form>
+	</div>
+	<div id="SignUp" style="display: none;">
+	<form name="form" id="form_id2" method="POST"><br>
+	<table>
+	<tr>
+		<td><label for="user">User name</label></td>
+		<td><input type="text" placeholder="User Name" name="users2" id="users2" onclick="seeuser2()"></td>
+	</tr>
+	<tr align="center">
+		<td></td>
+		<td id="useralert2"></td>
+	</tr>
+	<tr>
+		<td><label for="email">Email</label></td>
+		<td><input type="text" placeholder="Email" name="emails2" id="emails2" onclick="seeemail2()"></td>
+		</tr>
+	<tr align="center">
+		<td></td>
+		<td id="emailalert2"></td>
+	</tr>
+	<tr>
+		<td><label for="password">Password</label></td>
+		<td><input type="password" placeholder="Password" name="passwords2" id="passwords2" onclick="seepass2()"></td>
+		</tr>
+	<tr align="center">
+		<td></td>
+		<td id="passwordalert2"></td>
+	</tr>
+	</table><br><br><br>
+	<input type="button" name="submit" value="Sign Up" onclick="submitform2()"><br><br><br>
+	<a  onclick="toggleVisibility('Login');">Login</a>
+	</form>
+	</div>
+	<div id="ContactUs" style="display: none;">
+	<form name="form3" id="form_id3" method="POST">
+	<table>
+	<tr>
+		<td><label for="name">Name</label></td>
+		<td><input type="text" placeholder="Name" name="names3" onclick="seename3()"></td>
+	</tr>
+	<tr align="center">
+		<td></td>
+		<td id="namealert3"></td>
+	</tr>
+	<tr>
+		<td><label for="email">Email</label></td>
+		<td><input type="text" placeholder="Email" name="emails3" onclick="seeemail3()"></td>
+		</tr>
+	<tr align="center">
+		<td></td>
+		<td id="emailalert3"></td>
+	</tr>
+	<tr>
+		<td><label for="phone">Phone</label></td>
+		<td><input type="text" placeholder="Phone" name="phones3" onclick="seephone3()"></td>
+	</tr>
+	<tr align="center">
+		<td></td>
+		<td id="phonealert3"></td>
+	</tr>
+	<tr>
+		<td><label for="question">Question</label></td>
+		<td><input type="question" placeholder="Question" name="questions3" onclick="seequestion3()"></td>
+		</tr>
+	<tr align="center">
+		<td></td>
+		<td id="questionalert3"></td>
+	</tr>
+	</table>
+	<input type="button" name="submit" value="Contact" onclick="submitform3()"><br><br>
+	<a  onclick="toggleVisibility('Login');">Login</a>
+	</form>
+	</div>
+	
+	</center>
+	</body>
+
+</html>
